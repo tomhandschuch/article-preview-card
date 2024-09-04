@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-accent: darkslateblue;
+  --clr-white: white;
+
+  --s-base: 1rem;
+  --s-border: 0.125rem;
+  --s-radius-outer: 0.75rem;
+  --s-radius-inner: calc(var(--s-radius-outer) / 3);
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 2rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 650px;
+}
+
+article {
+  border: 0.125rem solid black;
+  max-width: 400px;
+  margin: 2rem;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  position: relative;
+  }
+
+  .p-grey, div {
+    color: lightgray;
+  }
+
+  section > p {
+    
+  }
+
+  .first-picture {
+   border-radius: 0.25rem;
+   height: 200px;
+   width: 500px;
+}
+
+  .second-picture {
+    border-radius: 0.25rem;
+    height: 200px;
+   width: 360px;
+  }
+
+  .first-aside {
+    background-color: darkslateblue;
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    padding: .5rem;
+    border-radius: .25rem;
+  }
+
+  .second-aside {
+    background-color: darkorange;
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    padding: .5rem;
+    border-radius: .25rem;
+  }
+
+  .third-aside, .fourth-aside, .fith-aside {
+    background-color: deepskyblue;
+    color: black;
+    padding: .25rem;
+    border-radius: .75rem;
+  }
+
+  .third-aside {
+    position: absolute;
+  }
+
+  .fourth-aside {
+    position: absolute;
+  }
+
+  .fith-aside {
+    position: absolute;
+    left: 5rem;
+  }
+
+  .third-picture {
+    position: absolute;
+    right: 1rem;
+    top: 14rem;
+  }
+
+  .fourth-picture {
+    position: absolute;
+    right: 1rem;
+    top: 14rem;
+  }
+
+  .section-one {
+    position: absolute;
+    top: 18rem;
+  }
+
+  .section-two {
+    position: absolute;
+    top: 18rem;
+  }
+
