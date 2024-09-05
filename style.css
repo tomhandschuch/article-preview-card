@@ -35,87 +35,108 @@ article {
   border-radius: 0.75rem;
   padding: 1rem;
   position: relative;
-  }
-
-  .p-grey, div {
-    color: lightgray;
-  }
-
-  section > p {
-    
-  }
-
-  .first-picture {
-   border-radius: 0.25rem;
-   height: 200px;
-   width: 500px;
 }
 
-  .second-picture {
-    border-radius: 0.25rem;
-    height: 200px;
-   width: 360px;
-  }
 
-  .first-aside {
-    background-color: darkslateblue;
-    color: white;
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    padding: .5rem;
-    border-radius: .25rem;
-  }
+.third-picture {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .second-aside {
-    background-color: darkorange;
-    color: white;
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    padding: .5rem;
-    border-radius: .25rem;
-  }
+.third-picture img {
+  border: 0.125rem darkslateblue;
+    border-radius: 50%;
+}
 
-  .third-aside, .fourth-aside, .fith-aside {
-    background-color: deepskyblue;
-    color: black;
-    padding: .25rem;
-    border-radius: .75rem;
-  }
+.container2 {
+  display: flex;
+}
 
-  .third-aside {
-    position: absolute;
-  }
+.fourth-picture {
+  border: 0.125rem darkorange;
+  border-radius: 50%;
+}
 
-  .fourth-aside {
-    position: absolute;
-  }
+.image1 {
+  border-radius: 0.25;
+}
 
-  .fith-aside {
-    position: absolute;
-    left: 5rem;
-  }
+.preview-card1 {
+  box-shadow: 0.5rem 0.5rem darkslateblue;
+}
 
-  .third-picture {
-    position: absolute;
-    right: 1rem;
-    top: 14rem;
-  }
+.preview-card2 {
+  box-shadow: 0.5rem 0.5rem darkorange;
+}
 
-  .fourth-picture {
-    position: absolute;
-    right: 1rem;
-    top: 14rem;
-  }
+.p-grey,
+div {
+  color: lightgray;
+}
 
-  .section-one {
-    position: absolute;
-    top: 18rem;
-  }
+.first-picture {
+  border-radius: 0.25rem;
+}
 
-  .section-two {
-    position: absolute;
-    top: 18rem;
-  }
+.second-picture {
+  border-radius: 0.25rem;
+  height: 200px;
+  width: 360px;
+}
 
+.first-aside {
+  background-color: darkslateblue;
+  color: white;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.second-aside {
+  background-color: darkorange;
+  color: white;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.third-aside,
+.fourth-aside,
+.fith-aside {
+  background-color: deepskyblue;
+  color: black;
+  padding: 0.25rem;
+  border-radius: 0.75rem;
+}
+
+.third-aside {
+  position: absolute;
+}
+
+.fourth-aside {
+  position: absolute;
+}
+
+.fith-aside {
+  position: absolute;
+  left: 5rem;
+}
+
+.section-one {
+  position: absolute;
+  top: 18rem;
+}
+
+.section-two {
+  position: absolute;
+  top: 18rem;
+}
+
+.first-picture {
+  border-radius: 1rem;
+}
